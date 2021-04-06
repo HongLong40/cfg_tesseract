@@ -11,13 +11,13 @@ set clipboard^=unnamed,unnamedplus
 colorscheme industry
 highlight Normal guifg=#cfcfcf guibg=#010e17
 highlight LineNr guifg=DarkYellow
-highlight CursorLineNr gui=none guifg=red
-highlight CursorLine guibg=Grey30
+highlight CursorLineNr gui=none guifg=red cterm=none ctermfg=darkred
+highlight CursorLine guibg=Grey30 cterm=none ctermbg=DarkBlue
 highlight iCursor guifg=bg guibg=red
 highlight Folded  term=standout ctermfg=11 ctermbg=8 guifg=DarkRed guibg=DarkGrey
 highlight MatchParen guibg=DarkBlue
 highlight SpecialKey guifg=orange
-highlight StatusLine gui=reverse guifg=#00bb00
+highlight StatusLine gui=reverse guifg=#00bb00 cterm=reverse ctermfg=DarkGreen
 
 if has('linux')
     " set guifont=Input\ Mono\ Light\ 11
