@@ -6,13 +6,15 @@ set nocompatible
 "set nomodeline
 set clipboard^=unnamed,unnamedplus
 
+syntax on
+
 " ----------------------------------------------------------------------------
 " --- Color scheme, highlights, font and cursors -----------------------------
 colorscheme industry
-highlight Normal guifg=#cfcfcf guibg=#010e17
+highlight Normal guifg=#cfcfcf guibg=#010e17 ctermbg=234
 highlight LineNr guifg=DarkYellow
 highlight CursorLineNr gui=none guifg=red cterm=none ctermfg=darkred
-highlight CursorLine guibg=Grey30 cterm=none ctermbg=DarkBlue
+highlight CursorLine guibg=Grey30 cterm=none ctermbg=18
 highlight iCursor guifg=bg guibg=red
 highlight Folded  term=standout ctermfg=11 ctermbg=8 guifg=DarkRed guibg=DarkGrey
 highlight MatchParen guibg=DarkBlue
