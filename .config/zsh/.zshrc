@@ -78,3 +78,6 @@ alias gsp='git status --porcelain'
 # add push-line-or-edit function
 bindkey '^B' push-line-or-edit
 fortune
+
+echo "$(date) -- .zshrc" >> /tmp/startup
+

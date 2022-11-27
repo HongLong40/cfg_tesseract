@@ -1,0 +1,10 @@
+#!/usr/bin/zsh
+
+export ZDOTDIR="${HOME}/.config/zsh"
+export LOGIN_VIA_VNC=yes
+
+[[ -f ${ZDOTDIR}/.zprofile ]] && source ${ZDOTDIR}/.zprofile
+
+env | sort > ~/env.txt
+# done
+
