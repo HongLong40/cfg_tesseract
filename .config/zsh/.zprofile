@@ -11,5 +11,5 @@ export XDG_DATA_HOME="$HOME/.local/share"
 
 export XINITRC=$HOME/.xinitrc
 
-export VIRSH_DEFAULT_CONNECT_URI="qemu:///system"
+export LIBVIRT_DEFAULT_URI="qemu:///system"
 
