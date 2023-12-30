@@ -26,6 +26,7 @@ export HOSTNAME=$(</etc/hostname)
 export USERNAME
 export RIPGREP_CONFIG_PATH=$HOME/.config/rg/ripgreprc
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+export MANROFFOPT="-c"
 export LESSHISTFILE=-
 
 export MAKEFLAGS="-j$(nproc)"
